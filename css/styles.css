@@ -1,0 +1,112 @@
+
+
+body {
+    padding: 0 120px;
+    min-width: 1200px;
+    font-family: 'Farro', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Tourney', cursive;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 0;
+    margin-bottom: 70px;
+    /* width: 100%; */
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.description__item {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.lang {
+    text-transform: uppercase;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-right: 50px;
+}
+
+.react-feature-titles {
+    display: flex;
+    margin-bottom: 40px;
+}
+.react-feature-title {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.react-feature-subtitle {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    /* font-size: 30px; */
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+
+}
+.react-feature-description {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+.react-feature-description p {
+    margin-bottom: 20px;
+}
+
+.react-feature-description p:last-child {
+    margin-bottom: 0;
+}
+
+.react-feature-description--bold {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.react-feature-description--underline {
+    text-decoration: underline;
+}
+
+.react-feature-description--italic {
+    font-style: italic;
+}
+
+.react-feature-description--background {
+    background-color: #DADADA;
+}
